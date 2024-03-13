@@ -3,8 +3,8 @@ reached_end_goal = False
 
 # A variable to keep track of whether we are heading away from the start point.
 heading = 0
-# To 
-snag_counter = 0 
+# To
+snag_counter = 0
 collisions = []
 
 bob = TurtleMove()
@@ -27,12 +27,11 @@ while not reached_end_goal:
         if collision_point = 1:
             bob.left(degrees=90)
             heading += 90
-        if collision_point = 2:
+        elif collision_point = 2:
             bob.right(degrees=90)
             heading += -90
-        if collision_point = 3:
+        elif collision_point = 3:
             bob.left(degrees=45)
             heading += 45
 
-    
-    
+
